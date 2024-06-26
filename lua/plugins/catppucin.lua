@@ -68,6 +68,7 @@ return{
                 style = "nvchad",
             },
         },
+        transparent_background = true,
         })
 
         vim.cmd.colorscheme "catppuccin-macchiato"
