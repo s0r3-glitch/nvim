@@ -21,5 +21,6 @@ return{
     		require("nvim-tree").setup {}
             vim.keymap.set("n", "<C-`>", nvimTreeFocusOrToggle)
   		end,
+    priority = 20,
 	}
 }

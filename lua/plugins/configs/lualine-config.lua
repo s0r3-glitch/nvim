@@ -1,25 +1,25 @@
 local colors = {
-  red = '#ca1243',
-  grey = '#a0a1a7',
-  black = '#383a42',
-  white = '#f3f3f3',
-  light_green = '#83a598',
-  orange = '#fe8019',
-  green = '#8ec07c',
+  red = '#E66767',
+  grey = '#A2A9C7',
+  black = '#B5BEDA',
+  white = '#11111A',
+  light_green = '#70cf67',
+  orange = '#FAB770',
+  green = '#4CD4BD',
 }
-
-local theme = {
-  normal = {
-    a = { fg = colors.white, bg = colors.black },
-    b = { fg = colors.white, bg = colors.grey },
-    c = { fg = colors.black, bg = colors.white },
-    z = { fg = colors.white, bg = colors.black },
-  },
-  insert = { a = { fg = colors.black, bg = colors.light_green } },
-  visual = { a = { fg = colors.black, bg = colors.orange } },
-  replace = { a = { fg = colors.black, bg = colors.green } },
-}
-
+--
+--local theme = {
+--  normal = {
+--    a = { fg = colors.white, bg = colors.black },
+--    b = { fg = colors.white, bg = colors.grey },
+--    c = { fg = colors.black, bg = colors.white },
+--    z = { fg = colors.white, bg = colors.black },
+--  },
+--  insert = { a = { fg = colors.black, bg = colors.light_green } },
+--  visual = { a = { fg = colors.black, bg = colors.orange } },
+--  replace = { a = { fg = colors.black, bg = colors.green } },
+--}
+local theme = 'catppuccin'
 local empty = require('lualine.component'):extend()
 function empty:draw(default_highlight)
   self.status = ''
