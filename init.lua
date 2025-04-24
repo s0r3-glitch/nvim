@@ -13,6 +13,6 @@ end
 vim.opt.rtp:prepend(lazypath)
 require("lazy").setup({
 	spec = {
-	{"s0r3-glitch/s0r3fig", import="s0r3fig.plugins"}
+	{"s0r3-glitch/s0r3fig", import="s0r3fig.plugins", priority = 1000000}
 },
 })
